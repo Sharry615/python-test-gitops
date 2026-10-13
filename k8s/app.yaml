@@ -41,7 +41,7 @@ metadata:
   name: python-test
   namespace: python-test
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: python-test
